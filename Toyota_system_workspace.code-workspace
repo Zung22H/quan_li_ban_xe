@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Cong nghe phan mem/final-2/PhoneStoreProject"
+		},
+		{
+			"path": "../../../../F8/html_css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_css",
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"database": "${workspaceFolder:Toyota_system}/toyota_system/db.sqlite3",
+				"name": "db"
+			}
+		]
+	}
+}

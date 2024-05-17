@@ -1,0 +1,30 @@
+{% load static %}
+
+<div id="carouselExampleAutoplaying" class="carousel slide slide-trsition-speed margin-top" data-bs-ride="carousel"
+  data-interval="500">
+  <div class="carousel-inner">
+    <div class="carousel-item active slide-trsition-speed">
+      <img src="{% static 'system/img/panner1.jpg' %}" class="d-block w-100" alt="banner1">
+    </div>
+    <div class="carousel-item slide-trsition-speed">
+      <img src="{% static 'system/img/panner2.jpg' %}" class="d-block w-100" alt="banner2">
+    </div>
+    <div class="carousel-item slide-trsition-speed">
+      <img src="{% static 'system/img/panner3.jpg' %}" class="d-block w-100" alt="banner3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<script>
+  $(document).ready(function () {
+    jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000  // 2 seconds
+  });
+</script>
